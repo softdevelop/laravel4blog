@@ -1,0 +1,1 @@
+Laravel blog only an authorized user could edit and remove entries there

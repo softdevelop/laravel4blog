@@ -18,4 +18,4 @@ Laravel 4.2 blog, only an authorized user could edit and remove entries there.
 
 ### How to use
 
-- Go to login page and then login with account: member@gmail.com / 123456.
+- Go to login page and then login with account: member@gmail.com / 123456. After login with this account, you can go to blog management page.

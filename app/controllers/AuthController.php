@@ -50,7 +50,7 @@ class AuthController extends BaseController {
 			// Get the page we were before
 			$redirect = Session::get('loginRedirect', 'account');
 			if($redirect=='account' && Sentry::getUser()->hasAccess('author')) {
-				$redirect =
+				$redirect = route('home');
 			}
 				
 			// Unset the page we were before from the session
